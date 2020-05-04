@@ -3,8 +3,8 @@ source ~/dotfiles/zsh/antigen-bundle.zsh
 source ~/dotfiles/zsh/keybinds.zsh
 source ~/local.zsh
 
-#Aliasesessess
-alias bnpm='bazel run @nodejs//:npm'
+# autojump stuffs
+[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
 export PATH=/Users/pikachu/Library/Python/3.6/bin:$PATH
 export MINIUM_DEVELOPER_BUILD=Kitteh
